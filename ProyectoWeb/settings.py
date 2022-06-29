@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'contacto',
     'tienda',
     'carro',
+
 ]
 
 MIDDLEWARE = [
@@ -69,6 +70,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'carro.context_processors.importe_total_carro',
             ],
         },
     },
@@ -142,5 +144,4 @@ EMAIL_HOST_USER="jonathancanalesastudillo@gmail.com"
 EMAIL_HOST_PASSWORD="opfuewpmtjrenpqt"
 
 
-
-
+CRISPY_TEMPLATE_PACK='bootstrap4'
