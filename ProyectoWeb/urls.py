@@ -33,5 +33,7 @@ urlpatterns = [
         
     path('carro/', include('carro.urls')),
 
+    path('autenticacion/', include('autenticacion.urls')),
+
 ]
 
